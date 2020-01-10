@@ -40,11 +40,11 @@ body .column-container > div {
 }
 
 body .column-container > div:nth-child(3n) {
-  background-color: red;
+  background-color: green;
 }
 
 body .column-container > div:nth-child(3n + 1) {
-  background-color: purple;
+  background-color: red;
 }
 
 body .column-container > div:nth-child(3n + 2) {
