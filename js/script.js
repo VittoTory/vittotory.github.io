@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	    }
 
 	    if (event.target.classList.contains('add-card')) {
-	      self.addCard(new Card(prompt("Enter the name of the card")));
+	      self.addCard(new Card(prompt("Введите задачу")));
 	    }
 	  });
 	}
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	}
 
 	document.querySelector('#board .create-column').addEventListener('click', function() {
-	  var name = prompt('Enter a column name');
+	  var name = prompt('Введите имя колонки');
 	  var column = new Column(name);
 	  board.addColumn(column);
 	});
