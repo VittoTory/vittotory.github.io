@@ -69,7 +69,7 @@ body .column ul li {
 }
 
 body .column > .btn-delete {
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
 }
