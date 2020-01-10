@@ -94,9 +94,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	});
 
 	// CREATING COLUMNS
-	var todoColumn = new Column('To do');
-	var doingColumn = new Column('Doing');
-	var doneColumn = new Column('Done');
+	var todoColumn = new Column('Новые задачи');
+	var doingColumn = new Column('В процессе выполнения');
+	var doneColumn = new Column('Завершены');
 
 	// ADDING COLUMNS TO THE BOARD
 	board.addColumn(todoColumn);
@@ -104,8 +104,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	board.addColumn(doneColumn);
 
 	// CREATING CARDS
-	var card1 = new Card('New task');
-	var card2 = new Card('Create kanban boards');
+	var card1 = new Card('Новая задача 1');
+	var card2 = new Card('Задача 1');
 
 	// ADDING CARDS TO COLUMNS
 	todoColumn.addCard(card1);
