@@ -53,7 +53,7 @@ body .column-container > div:nth-child(3n + 2) {
 
 body .column {
   color: #333;
-  position: center;
+  position: relative;
 }
 
 body .column ul {
