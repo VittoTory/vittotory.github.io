@@ -44,7 +44,7 @@ body .column-container > div:nth-child(3n) {
 }
 
 body .column-container > div:nth-child(3n + 1) {
-  background-color: blue;
+  background-color: purple;
 }
 
 body .column-container > div:nth-child(3n + 2) {
